@@ -1,16 +1,16 @@
-# EV Charging Dataset Explorer
+# Public EV Charging Datasets Review and Explorer
 
-This repository hosts two standalone HTML explorers for public EV charging datasets. The goal is to give researchers a quick visual entry point for comparing station-level charging demand patterns and session-level charging behavior without redistributing the original raw data.
+This repository reviews and visualizes public EV charging datasets. It hosts two standalone HTML explorers that give researchers a quick entry point for comparing station-level charging demand patterns and session-level charging behavior without redistributing the original raw data.
 
 ## Interactive views
 
 - [EV Charging Dataset Explorer](interactive_dataset_explorer.html): station/site/zone-level geographic and temporal profiles, including map view, weekly aggregate, 24-hour profile, weekday/weekend split, and behavior labels.
 - [EV Charging Session Dataset Explorer](session_dataset_explorer.html): session-level dataset comparison, including availability of user IDs, charger IDs, start/end times, duration, energy, price, weather, termination fields, and sample rows.
 
-If GitHub Pages is enabled for this repository, the public links should be:
+Public website links:
 
-- `https://chogaliu.github.io/EV-Charging-Dataset-Explorer/interactive_dataset_explorer.html`
-- `https://chogaliu.github.io/EV-Charging-Dataset-Explorer/session_dataset_explorer.html`
+- [Station and Load Explorer](https://chogaliu.github.io/Public-EV-Charging-Datasets-Review-and-Explorer/interactive_dataset_explorer.html)
+- [Session Dataset Explorer](https://chogaliu.github.io/Public-EV-Charging-Datasets-Review-and-Explorer/session_dataset_explorer.html)
 
 ## Data source links
 
