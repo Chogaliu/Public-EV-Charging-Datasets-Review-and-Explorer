@@ -17,22 +17,21 @@ If GitHub Pages is enabled for this repository, the public links should be:
 The raw datasets are not included in this repository. Please use the original sources and follow their licenses/citation requirements.
 
 | Dataset | Main use in explorer | Location / scope | Original source |
-|---|---:|---|---|
+|---|---|---|---|
 | CHARGED | Station-level hourly panels | Amsterdam, Shenzhen, Los Angeles, Melbourne, Sao Paulo, Johannesburg | [GitHub: IntelligentSystemsLab/CHARGED](https://github.com/IntelligentSystemsLab/CHARGED) |
 | UrbanEV | Zone-level charging volume benchmark | Shenzhen, China | [GitHub: SoYoOo/UrbanEV](https://github.com/SoYoOo/UrbanEV) |
 | Palo Alto ChargePoint | Station-level and session-level records | Palo Alto, California, United States | [City of Palo Alto open data](https://data.paloalto.gov/dataviews/257812/electric-vehicle-charging-station-usage-july-2011-dec-2020/) |
 | Boulder EV charging | Station-level and session-level records | Boulder, Colorado, United States | [City of Boulder ArcGIS FeatureServer](https://services.arcgis.com/ePKBjXrBZ2vEEgWd/arcgis/rest/services/Electric_Vehicle_Charging_Station_Data/FeatureServer) |
 | ACN-Data static | Session-level time-series summaries | Caltech / JPL / Silicon Valley, United States | [ACN-Data project page](https://ev.caltech.edu/dataset.html) |
-| Perth and Kinross ChargePlace Scotland | Session-level records | Perth and Kinross, Scotland, United Kingdom | [ArcGIS item](https://www.arcgis.com/sharing/rest/content/items/ca6cae3df2624832a2eaf678f2eabee8) |
-| Jiaxing high-resolution transactions | Station-level hourly derived view and session-level records | Jiaxing, Zhejiang, China | [Figshare dataset](https://figshare.com/articles/dataset/A_High-resolution_Electric_Vehicle_Charging_Transaction_Dataset_with_Multidimensional_Features_in_China/28182251) |
-| Korea multi-faceted transactions | Charger-level hourly derived view and session-level records | South Korea, exact city anonymized | [Figshare dataset](https://figshare.com/articles/dataset/A_dataset_for_multi-faceted_analysis_of_electric_vehicle_charging_transactions/22495141) |
+| Perth and Kinross ChargePlace Scotland | Station-level and session-level records | Perth and Kinross, Scotland, United Kingdom | [ArcGIS item](https://www.arcgis.com/sharing/rest/content/items/ca6cae3df2624832a2eaf678f2eabee8) |
+| Jiaxing high-resolution transactions | Session-level records | Jiaxing, Zhejiang, China | [Figshare dataset](https://figshare.com/articles/dataset/A_High-resolution_Electric_Vehicle_Charging_Transaction_Dataset_with_Multidimensional_Features_in_China/28182251) |
+| Korea multi-faceted transactions | Session-level records | South Korea, exact city anonymized | [Figshare dataset](https://figshare.com/articles/dataset/A_dataset_for_multi-faceted_analysis_of_electric_vehicle_charging_transactions/22495141) |
 | Risvollan apartment charging | Session-level residential charging records | Trondheim, Norway | [Mendeley Data](https://data.mendeley.com/datasets/jbks2rcwyj/3) |
-| ElaadNL frequent-user aggregate | Aggregate charging power curve reference | Netherlands | [Zenodo record](https://zenodo.org/records/4972871) |
 
 ## Notes
 
 - The HTML files are self-contained snapshots generated from local preprocessing scripts.
-- Some station-level views are derived from session data by assigning session energy to the start hour, so they should be treated as exploratory rather than a replacement for native load measurements.
+- The station/load explorer excludes datasets without usable geographic coordinates.
 - CHARGED data are released as harmonized hourly panels rather than raw sessions.
 - Risvollan represents residential apartment charging, which is behaviorally different from public or workplace charging networks.
 
